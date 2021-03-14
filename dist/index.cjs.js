@@ -1943,7 +1943,7 @@ var Icon$Z = function (props) {
 };
 
 var Icon$_ = function (props) {
-    return (React__default['default'].createElement("svg", { version: "1.0", xmlns: "http://www.w3.org/2000/svg", width: "1024px", height: "1024px", viewBox: "0 0 10240 10240", preserveAspectRatio: "xMidYMid meet" },
+    return (React__default['default'].createElement("svg", { version: "1.0", xmlns: "http://www.w3.org/2000/svg", width: "24px", height: "24px", viewBox: "-60 -30 600 600", preserveAspectRatio: "xMidYMid meet" },
         React__default['default'].createElement("g", { id: "layer101", fill: "#135249", stroke: "none" },
             React__default['default'].createElement("path", { d: "M4605 10224 c-153 -18 -331 -44 -385 -55 -25 -5 -90 -18 -145 -29 -259 -50 -601 -153 -864 -259 -1299 -524 -2328 -1553 -2852 -2852 -173 -429 -276 -844 -339 -1369 -29 -240 -29 -840 0 -1080 56 -463 120 -748 261 -1158 304 -886 899 -1722 1644 -2313 574 -455 1217 -776 1912 -954 122 -32 188 -46 388 -85 72 -14 240 -38 390 -55 183 -21 827 -21 1010 0 150 17 318 41 390 55 200 39 266 53 388 85 258 66 458 134 777 266 93 39 405 197 518 263 188 110 400 253 582 394 408 314 843 789 1137 1240 270 412 523 967 639 1399 37 139 53 203 68 278 10 44 21 98 26 120 20 93 32 157 40 222 50 395 50 387 50 783 0 395 -5 468 -54 800 -51 341 -169 770 -305 1109 -320 793 -829 1491 -1485 2035 -590 489 -1263 834 -1993 1021 -122 32 -188 46 -388 85 -72 14 -240 38 -390 55 -171 20 -857 19 -1020 -1z" })),
         React__default['default'].createElement("g", { id: "layer102", fill: "#ffffff", stroke: "none" },
