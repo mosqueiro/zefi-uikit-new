@@ -1916,9 +1916,9 @@ var Icon$_ = function (props) {
 };
 
 var Icon$$ = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "-60 -30 600 600" }, props),
-        React.createElement("g", null,
-            React.createElement("path", { xmlns: "http://www.w3.org/2000/svg", d: "m20 4h-16a3 3 0 0 0 -3 3v10a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3v-10a3 3 0 0 0 -3-3zm-16 2h16a1 1 0 0 1 1 1v1h-18v-1a1 1 0 0 1 1-1zm16 12h-16a1 1 0 0 1 -1-1v-5h18v5a1 1 0 0 1 -1 1z", fill: "#000000", "data-original": "#000000" }))));
+    return (React.createElement("svg", { version: "1.1", id: "Layer_1", xmlns: "http://www.w3.org/2000/svg", x: "0px", y: "0px", width: "32px", height: "24px", viewBox: "0 0 32 24", "enable-background": "new 0 0 32 24" },
+        " ",
+        React.createElement("image", { id: "image0", width: "32", height: "24", x: "0", y: "0", href: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAMAAACsjQ8GAAAABGdBTUEAALGPC/xhBQAAACBjSFJN\nAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAtFBMVEX///8HUlAIGxgWS0UW\nTEUURkAVS0QVTEUVS0UVSkUVR0AWS0QVR0EIbmwIHBsYSEEWS0QWTEQYVU0SSUMUQjwWR0EVR0EW\nTEUWTkcWTEUWTEUWTEUWTEUWTEUWTEUWTEUWTEUWTEUWTkcVSEAWS0QVRkATTkgTPzoZQjsWS0QX\nTEUYWFEWTEUXT0cXTkcXUEgXSUIWTUUVSkMYUkoWTUYWS0QXRj8XUUkXTUYWTkYXT0j///8cqVcC\nAAAALHRSTlMAAAAAAAAAAAAAAAAAAACK6uyOho83Mu/s6+zz7fHy/hoNDUQNP4uWkfP1leNLk5QA\nAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5QQIBhQPAPUYyAAAAJ1J\nREFUKM/N0kcTgkAMhmEUEBV7A2wUsX+i4q7t//8wr0ng4knfa56Z3cnEMP6hSrcHUX9QJWB4yiTI\nziMCLtexabHMSX4jQGm75tRJTsPWIMCDH0xZgY8ZAXOUtPgGeFgWYk+EiGJRhJAAwCoEMBDLeSxA\nIkHCgNJNl8/dllYE3NUq5X9M1/mDgM1TyS283lsC2ru9BIdj54f3V+wDizknjbSuOxcAAAAldEVY\ndGRhdGU6Y3JlYXRlADIwMjEtMDQtMDhUMDY6MjA6MTUrMDA6MDDn1Nm6AAAAJXRFWHRkYXRlOm1v\nZGlmeQAyMDIxLTA0LTA4VDA2OjIwOjE1KzAwOjAwlolhBgAAAABJRU5ErkJggg==" })));
 };
 
 var Icon$10 = function (props) { return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
