@@ -116,8 +116,12 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/ZCoreMiners",
+        href: "https://t.me/ZCoreFinance",
       },
+      {
+        label: "Português",
+        href: "https://t.me/ZCoreFinancePT",
+      },      
       // {
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
