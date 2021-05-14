@@ -65,6 +65,7 @@ const PanelFooter: React.FC<Props> = ({
   langs,
   setLang,
   priceLink,
+  newcakePriceUsd,
 }) => {
   if (!isPushed) {
     return (
@@ -76,7 +77,7 @@ const PanelFooter: React.FC<Props> = ({
     );
   }
 
-
+/*
   const api = "https://finance.zcore.network/lp";
   const [newcakePriceUsd, setData] = useState(0.0);
 
@@ -93,6 +94,7 @@ const PanelFooter: React.FC<Props> = ({
 
     fetchData();
   }, [setData]);  
+*/  
 
   return (
     <Container>
