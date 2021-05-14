@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect, useMemo, useState } from "react";
 import styled from "styled-components";
 import { PancakeRoundIcon, CogIcon, SvgProps } from "../../components/Svg";
 import Text from "../../components/Text/Text";
@@ -75,6 +76,24 @@ const PanelFooter: React.FC<Props> = ({
     );
   }
 
+
+  const api = "https://finance.zcore.network/lp";
+  const [newcakePriceUsd, setData] = useState(0.0);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(api);
+        const response_json = await response.json();
+        setData(response_json.lp_price * 0.3);
+      } catch (error) {
+        console.error("Unable to fetch price data:", error);
+      }
+    };
+
+    fetchData();
+  }, [setData]);  
+
   return (
     <Container>
       <SocialEntry>
@@ -86,6 +105,14 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24} />
         )}
+        {newcakePriceUsd ? (
+          <PriceLink href="https://zefi.zcore.network/ifo">
+            <PancakeRoundIcon width="24px" mr="8px" />
+            <Text color="textSubtle" bold>{`$${newcakePriceUsd.toFixed(3)}`}</Text>
+          </PriceLink>
+        ) : (
+          <Skeleton width={80} height={24} />
+        )}        
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
