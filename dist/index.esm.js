@@ -2405,7 +2405,7 @@ var PanelFooter = function (_a) {
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },
                 React.createElement(Icon$v, { width: "24px", mr: "8px" }),
                 React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 })),
-            newcakePriceUsd ? (React.createElement(PriceLink, { href: "https://zefi.zcore.network/ifo" },
+            newcakePriceUsd ? (React.createElement(PriceLink, { href: "https://bscscan.com/token/0x7D3550d0B0aC3590834cA6103907CD6Dd41318f8", target: "_blank" },
                 React.createElement(Icon$w, { width: "24px", mr: "8px" }),
                 React.createElement(Text, { color: "textSubtle", bold: true }, "$" + newcakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))),
         React.createElement(SettingsEntry, null,

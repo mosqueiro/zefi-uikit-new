@@ -2418,7 +2418,7 @@ var PanelFooter = function (_a) {
             cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: priceLink, target: "_blank" },
                 React__default['default'].createElement(Icon$v, { width: "24px", mr: "8px" }),
                 React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 })),
-            newcakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://zefi.zcore.network/ifo" },
+            newcakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://bscscan.com/token/0x7D3550d0B0aC3590834cA6103907CD6Dd41318f8", target: "_blank" },
                 React__default['default'].createElement(Icon$w, { width: "24px", mr: "8px" }),
                 React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + newcakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }))),
         React__default['default'].createElement(SettingsEntry, null,

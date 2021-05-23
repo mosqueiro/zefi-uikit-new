@@ -108,7 +108,7 @@ const PanelFooter: React.FC<Props> = ({
           <Skeleton width={80} height={24} />
         )}
         {newcakePriceUsd ? (
-          <PriceLink href="https://zefi.zcore.network/ifo">
+          <PriceLink href="https://bscscan.com/token/0x7D3550d0B0aC3590834cA6103907CD6Dd41318f8" target="_blank">
             <PancakeRoundBoost width="24px" mr="8px" />
             <Text color="textSubtle" bold>{`$${newcakePriceUsd.toFixed(3)}`}</Text>
           </PriceLink>
